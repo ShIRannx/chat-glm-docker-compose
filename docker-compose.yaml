@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  chat-glm:
+    container_name: chat-glm
+    build: .
+    ports:
+      - "7860:7860"
+
