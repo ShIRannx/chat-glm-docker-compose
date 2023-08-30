@@ -3,6 +3,7 @@ version: '3'
 services:
   chat-glm:
     container_name: chat-glm
+    image: chat-glm:lts
     build: .
     ports:
       - "7860:7860"
